@@ -268,6 +268,7 @@ h2:nth-of-type(2) {
 }
 .quote p {
     width: 690px;
+    color: #444341;
 }
 .quote div:nth-of-type(1) {
     float: left;
@@ -283,12 +284,68 @@ h2:nth-of-type(2) {
 }
 .button3 button {
     margin: 205px 0px 0px -690px;
-    color: #444446;
+    color: #bcb5ab;
     font-weight: 700;
     font-size: 16px;
     padding: 15px 20px;
-    border: 2px solid #444446;
+    border: 2px solid #a5a198;
     border-radius: 1px;
     background-color: #ede5d8;
 }
-
+.quote div:nth-of-type(4) {
+    margin: -54px 0px 0px 672px;
+    font-weight: 600;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.range {
+    width: 1300px;
+    height: 550px;
+}
+.range h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 96px 0px 0px 200px;   
+}
+.range table {
+    margin: 74px 0px 0px 201px;
+    border-collapse: collapse;
+    width: 800px;
+    border: 0;
+}
+.range table th {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 24px 0px 24px 0px;
+}
+.range table tr:nth-of-type(1) th {
+    color: #979797;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 20px 0px 37px 0px;
+    font-size: 11px;
+    font-weight: 500;
+}
+.range table th {
+    text-align: left;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.range table th:nth-of-type(1) {
+    padding-right: 38px;
+    text-align: left;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.range table th:last-child {
+    text-align: right;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.range sup {
+    background-color: black;
+    color: white;
+    font-size: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px 4px;
+    margin: 0px 0px 0px 26px;
+    border-radius: 3px;
+}
