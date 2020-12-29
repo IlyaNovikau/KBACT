@@ -162,7 +162,7 @@
             <th>150 Р.</th>
           </tr>
           <tr>
-            <th>САШКА-РОМАНТИК<sup>НОВИНКА</sup></th>
+            <th>РОМАНТИК<sup>НОВИНКА</sup></th>
             <th><0,5%</th>
             <th>27</th>
             <th>0,5 Л</th>
@@ -170,36 +170,48 @@
           </tr>
         </table>
       </div>
-      <div>
-        <h2>Заказать</h2>
+      <div class="zakaz">
+        <h2>ЗАКАЗАТЬ</h2>
         <p>Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас. При заказе от 10 баррелей — скидка 10%.</p>
-        <form>
-        <p>Представьтесь: <input type="text"></p>
-        </form>
-        <form>
-          <p>Номер теелфона: <input type="text"></p>
-        </form>
-        <form>
-          <p>Доп номер: <input type="text"></p>
-        </form>
-        <form>
-          <p>Email: <input type="text"></p>
-        </form>
-        <p>Объём заказа</p>
-        <form>
-          <select>
-            <option>От 5 до 10 береллей в неделю</option>
-          </select>
-        </form>
-        <form>
-          <p>Доп. комментарий <textarea type="text" size="2"></textarea></p>
-        </form>
-        <form>
-          <p><input type="checkbox" checked>Я согласен получать квасную рассылку</p>
-        </form>
-        <form>
-          <p><input type="submit" value="Отправить заказ"> </p>
-        </form>
+        <div class="form">
+          <form>
+            <label for="name">ПРЕДСТАВЬТЕСЬ:</label>
+            <input type="name" id="name" name="name">
+          </form>
+          <div class="phone">
+            <form>
+              <label for="phone">НОМЕР ТЕЛЕФОНА:</label>
+              <input type="phone" id="phone" name="phone">
+            </form>
+          </div>
+          <div class="phone">
+            <form>
+              <label for="phone2">ДОП. НОМЕР:</label>
+              <input type="phone" id="phone2" name="phone">
+            </form>
+          </div>
+          <form>
+            <label for="email">EMAIL:</label>
+            <input type="email" id="email" name="email">
+          </form>
+          <form>
+            <label>ОБЪЁМ ЗАКАЗА:</label>
+            <select>
+              <option>ОТ 5 БАРРЕЛЕЙ В НЕДЕЛЮ</option>
+            </select>
+          </form>
+          <form>
+            <label for="textarea">ДОП. КОММЕНТАРИЙ:</label>
+            <textarea type="textarea" id="textarea" name="textarea" size="2"></textarea>
+          </form>
+          <form>
+            <input type="checkbox" checked>
+            <label>Я СОГЛАСЕН ПОЛУЧАТЬ КВАСНУЮ РАССЫЛКУ</label>
+          </form>
+          <form>
+            <p><input type="submit" value="Отправить заказ"> </p>
+          </form>
+          </div>
       </div>
     </main>
     <footer>
