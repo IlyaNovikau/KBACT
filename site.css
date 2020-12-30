@@ -376,7 +376,7 @@ h2:nth-of-type(2) {
     width: 623px;
     margin: 72px 0px 0px 198px;
 }
-.zakaz input {
+.zakaz .form input {
     margin: 12px 0px 28px 0px;
     width: 96%;
     height: 200%;
@@ -386,6 +386,7 @@ h2:nth-of-type(2) {
     padding: 16px;
     background-color: #e6b66c;
     border: none;
+    color: #b89053;
 }
 .zakaz .phone {
     width: 43%;
@@ -399,9 +400,26 @@ h2:nth-of-type(2) {
     width: 101%;
     height: 200%;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 15px 20px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 16px;
     background-color: #e6b66c;
     border: none;
+    color: #b89053;
+}
+.zakaz textarea {
+    margin: 12px 0px 28px 0px;
+    width: 96%;
+    height: 200%;
+    font-weight: 600;
+    font-size: 15px 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 16px;
+    background-color: #e6b66c;
+    border: none;
+    color: #b89053;
+    resize: none;
+}
+.check {
+    margin: 12px 0px 28px 200px;
 }
