@@ -29,14 +29,14 @@ header {
 .main-menu li {
     display: inline-block;
     margin-right: 1em;
-  }
-  .main-menu a {
-      color: white;
-      text-decoration: none;
-      font-family:Arial, Helvetica, sans-serif;
-      font-size: 15px;
-      font-weight: 600;
-      margin-right: 42px;
+}
+.main-menu a {
+    color: white;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 42px;
   }
 h1 {
     color: white;
@@ -121,11 +121,11 @@ button:nth-of-type(1) {
     border-radius: 1px;
 }
 button:nth-of-type(2) {
-    margin: 42px 0px 0px 4px;
+    margin: 40px 0px 0px 4px;
     display: inline-block;
     color: white;
     font-weight: 700;
-    padding: 2px 21px;
+    padding: 2px 25px;
     border: 2px solid #834700;
     border-radius: 1px;
     background-color: #834700;
@@ -351,6 +351,7 @@ h2:nth-of-type(2) {
 }
 .zakaz {
     width: 1200px;
+    height: 1185px;
     background-color: #ffcb78;
 }
 .zakaz h2 {
@@ -420,6 +421,73 @@ h2:nth-of-type(2) {
     color: #b89053;
     resize: none;
 }
-.check {
-    margin: 12px 0px 28px 200px;
+.checkbox {
+    margin: -3px 0px 28px 200px;
 }
+#checkbox{
+    display: none;
+}
+#checkbox + label{
+    display: block;
+    width: 32px;
+    height: 32px;
+    background: #e6b66c;
+    text-align: center;
+    color: #e6b66c;
+}
+#checkbox + label:before{
+    content: '✔';
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+}
+#checkbox:checked + label:before{
+    color: black;
+}
+.label {
+    position: absolute;
+    margin: -45px 20px 20px 253px;
+}
+input[type="submit"] {
+    margin: 20px 0px 120px 200px;
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 16px 21px;
+    border: 0;
+    background-color: #834700;
+  }
+footer {
+    background-color: black;
+    width: 1200px;
+    padding-top: 50px;
+}
+footer img:nth-of-type(1) {
+    position: absolute;
+    margin: 10px 0px 0px 130px;
+}
+footer ul {
+    margin-top: 18px;
+    margin-left: 400px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 0px;
+    list-style: none;
+    width: 660px;
+}
+footer li {
+    display: inline-block;
+    margin-right: 1em;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 42px;
+  }
