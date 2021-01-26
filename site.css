@@ -26,7 +26,8 @@ header {
     padding-bottom: 20px;
     padding-right: 0px;
     list-style: none;
-    width: 690px;
+    width: 600px;
+    white-space: nowrap;
 }
 .main-menu li {
     display: inline-block;
@@ -487,7 +488,8 @@ footer ul {
     padding-bottom: 20px;
     padding-right: 0px;
     list-style: none;
-    width: 660px;
+    width: 600px;
+    white-space: nowrap;
 }
 footer li {
     display: inline-block;
