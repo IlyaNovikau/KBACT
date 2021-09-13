@@ -1,6 +1,10 @@
 body {
     margin: 0;
 }
+.content {
+    margin-left: auto;
+    margin-right: auto;
+}
 header {
     width: 1200px;
     height: 418px;
@@ -211,7 +215,7 @@ h2:nth-of-type(2) {
 }
 .story11{
     float: left;
-    display: block;  
+    display: block;
 }
 .wiki {
     margin: 5px 0px 0px 109px;
@@ -236,7 +240,7 @@ h2:nth-of-type(2) {
 }
 .story22{
     float: left;
-    display: block;  
+    display: block;
 }
 .story22 p:nth-of-type(1) {
     font-family: Arial, Helvetica, sans-serif;
@@ -274,7 +278,7 @@ h2:nth-of-type(2) {
 .press h2 {
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 88px 0px 0px 0px;   
+    padding: 88px 0px 0px 0px;
 }
 .quote p {
     width: 690px;
@@ -315,7 +319,7 @@ h2:nth-of-type(2) {
 .range h2 {
     font-size: 40px;
     font-weight: 600;
-    margin: 96px 0px 0px 200px;   
+    margin: 96px 0px 0px 200px;
 }
 .range table {
     margin: 74px 0px 0px 201px;
@@ -368,7 +372,7 @@ h2:nth-of-type(2) {
     font-size: 40px;
     font-weight: 600;
     margin: -4px 0px 0px 199px;
-    padding-top: 88px;  
+    padding-top: 88px;
 }
 .zakaz p:nth-of-type(1){
     margin: 80px 0px 0px 200px;
@@ -557,4 +561,4 @@ footer a {
 }
 .divelop div:last-of-type {
     display: inline-block;
-} 
+}
